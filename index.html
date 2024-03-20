@@ -1,40 +1,54 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width= , initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="index.html">Home</a>
-            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
-        </nav>
-    </header>
-    <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque"> um Front-end de qualidade!</strong>
-            </h1>
-            <p class="apresentacao__conteudo__texto">Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
-                <div class="apresentacao__links">
-                    <h2 class="apresentacao__links__subtitulo">Acesse minhas redes</h2>
-                    <a class="apresentacao__links__link" href="https://instragram.com/brunissant">
-                        <img src="./assets/instagram.png" >
-                        Instagram
-                    </a>
-                    <a class="apresentacao__links__link" href="https://linkedIn.com/in/brunaoliveiradossantos">
-                        <img src="./assets/linkedin.png">
-                        LinkedIn
-                    </a>
-                </div>
-        </section>   
-        <img src="./assets/Imagem.png" alt foto de perfil>
-    </main>
-    <footer class="rodape">
-        <p>Desenvolvido por Alura.</p>
-    </footer>
-</body>
-</html>
+  <!DOCTYPE html>
+  <html lang="" pt-br>
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style/style.css">
+        <title>Alura Challenge - Oracle ONE - Decodificador de Texto</title>
+      </head>
+
+    <body>
+    <nav>
+      <div id="logo"> 
+      <a  target="_blanck" href="https://www.alura.com.br/">
+        <img src="imgs/Vector.png"
+        alt="Logo da Alura"  />
+      </a>
+    </div>
+    </nav>
+      <div  id="text">
+          <textarea name="Texto" class="textarea is-info" id="text" cols="64" rows="22" autofocus placeholder="Digite seu texto"></textarea>
+            <img id="infor" src="imgs/info-fill.png" alt="">
+              <p id="parag">Apenas letra minúsculas e sem acento.</p>
+                <button class="crip">Criptografar</button>
+                  <button class="descrip">Descriptografar</button>
+      </div>
+    <div id="result">
+    <img id="img1"
+        src="imgs/High quality products 1 1.svg" 
+          alt="Informativo de nehuma mensagem encontrada"
+          /> <!--Se tiver a barra (/) o GitHub pages não mostra as imagens. ocorre erro de rota-->
+          <h2 class="saida" >Nenhuma mensagem encontrada</h2>
+            <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <button class="copy">Copiar</button>
+    </div>
+  </div>
+    <div class="ref">
+      <footer>
+       <strong>Desenvolvido por:</strong> Bruna Santos
+          <br />
+          <ul>
+            <a
+              target="_blanck"
+              href="https://www.linkedin.com/in/brunaoliveiradossantos"
+                ><img class="image-footer" src="imgs/linkedin.png" alt="Ícone do LinkedIn"></a
+                  > <br>
+                    <a target="_blanck" href="https://github.com/brunislasant"><img class="image-footer"src="imgs/github.png" alt="Ícone do GitHub"></a>
+          </ul>
+       </footer>
+    </div>
+    <script src="JS/script.js"></script>
+    </body>
+  </html>
